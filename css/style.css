@@ -1,0 +1,42 @@
+.contenedor{
+	height: 100%;
+	width: 1000px;
+	margin:auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	border-radius: 9px;
+}
+.col{
+	display: inline-block;
+	width: 200px;
+	margin-left: 15px;
+	margin-top: 20px;
+	height: 300px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	border-radius: 5px;
+}
+.col .imgPersonaje{
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+	display: none;
+
+}
+.imgX{
+	
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+	z-index: 1;
+}
+.row{
+	width: 880px;
+	margin: auto; 
+}
+
+.encabezado{
+	text-align: center;
+}
